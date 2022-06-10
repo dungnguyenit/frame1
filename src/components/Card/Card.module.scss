@@ -1,0 +1,23 @@
+.wrapper{
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: auto;
+    .img{
+        width: 100%;
+        height: 259px;
+        background-color: aliceblue;
+    }
+    .inner{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 5px 10px;
+    }
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}

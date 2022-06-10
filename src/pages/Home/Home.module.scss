@@ -1,0 +1,211 @@
+.wrapper {
+    width: 100%;
+    // background: var(--bg-home);
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        position: relative;
+        width: 90%;
+        margin: auto;
+        background-image: url(../../assets/image/inner.png);
+
+        .inner-left {
+            display: flex;
+            flex-direction: column;
+            float: left;
+            padding-left: 150px;
+            justify-content: center;
+            padding-bottom: 140px;
+            gap: 5px;
+        }
+
+        .inner-text1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 13px;
+
+            color: #C53030;
+        }
+
+        .inner-text2 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 51px;
+            color: #262626;
+        }
+
+        .inner-text3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 51px;
+            color: #262626;
+
+        }
+
+        .inner-text4 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 15px;
+            text-decoration-line: underline;
+            color: #262626;
+        }
+
+        .circle1-left {
+            position: absolute;
+            left: 150px;
+            bottom: 165px;
+        }
+
+        .circle2-left {
+            position: absolute;
+            left: 365px;
+            bottom: 49px;
+        }
+
+        .clusterLine-left {
+            position: absolute;
+            left: 231px;
+            top: 13px;
+        }
+
+        .line1-left {
+            position: absolute;
+            left: 196.5px;
+            top: 0px;
+        }
+
+        .line2-left {
+            position: absolute;
+            left: 179px;
+            bottom: 0px;
+        }
+
+        .line3-left {
+            position: absolute;
+            left: 15px;
+            top: 0px;
+        }
+
+        .line4-left {
+            position: absolute;
+            left: 229px;
+            bottom: 0px;
+        }
+
+        .text_summer {
+            position: absolute;
+            right: 96.5px;
+            top: 100px;
+        }
+
+        .circle-right {
+            position: absolute;
+            right: -20px;
+            top: 418px;
+        }
+
+        .wavy-right {
+            position: absolute;
+            right: 389px;
+            top: 247px;
+        }
+    }
+
+    .inner1 {
+        margin-left: 166px;
+        margin-right: 153px;
+        display: flex;
+        gap: 2%;
+        padding-top: 2%;
+
+        .inner1-left {
+            display: flex;
+            // justify-content: center;
+            gap: 30px;
+            background-color: #EFF0F2;
+            padding-left: 5%;
+        }
+        .inner1-left-img img{
+            height: 100%;
+        }
+
+        .inner1-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-bottom: 25px;
+            gap: 5px;
+        }
+
+        .inner1-text1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #262626;
+        }
+
+        .inner1-text2 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #262626;
+            min-width: 200px;
+        }
+
+        .inner1-text3 {
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 13px;
+            display: flex;
+            align-items: flex-end;
+            text-decoration-line: underline;
+            color: #262626;
+        }
+      
+        .inner1-right{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .inner1-top-right{
+            display: flex;
+            gap: 100px;
+            background-color: #e5e2dd;
+            padding-left: 30px;
+           justify-content:space-between;
+           
+        }
+        .inner1-top-img1 img{
+         height: 100%;
+        }
+        .inner1-bottom-right{
+            display: flex;
+            gap: 20px;
+          
+        }
+        .inner1-bottom-rr{
+            display: flex;
+            flex-direction: column;
+            background-color: #EFF0F2;
+            padding: 100px 100px 43px 24px;
+        }
+        .inner1-bottom-rl{
+            display: flex;
+            flex-direction: column;
+            padding: 100px 100px 43px 24px;
+            background-color: #F5E6E1
+        }
+
+    }
+  
+    
+
+}

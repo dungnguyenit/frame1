@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from 'classnames/bind';
+import classNames from 'classnames/bind'
 import style from './Card.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';

@@ -88,7 +88,16 @@ const Home = () => {
                 </div>
             </div>
             <div className={cx('inner2')}>
-            <Card/>
+                <h1>OUR TRENDY PRODUCTS</h1>
+                <div className={cx('inner2-tab')}>
+                    <ul>
+                    <li>ALL</li>
+                    <li>NEWARRIVALS</li>
+                    <li>BEST SELLER</li>
+                    <li>TOP RATING</li>
+                    </ul>
+                </div>
+                <Card />
             </div>
             <div className={cx('inner3')}></div>
             <div className={cx('inner4')}></div>

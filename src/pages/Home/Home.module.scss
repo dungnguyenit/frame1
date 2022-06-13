@@ -217,7 +217,12 @@
         flex-direction: column;
         gap: 20px;
         padding-top: 5%;
-
+        .inner2-card{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3%;
+        }
         h1 {
             text-align: center;
             font-style: normal;
